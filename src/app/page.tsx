@@ -55,12 +55,12 @@ const REVIEWS = [
 ];
 
 const HOURS = [
-  { day: "Monday", hours: "8:00 AM – 6:00 PM" },
-  { day: "Tuesday", hours: "8:00 AM – 6:00 PM" },
-  { day: "Wednesday", hours: "8:00 AM – 6:00 PM" },
-  { day: "Thursday", hours: "8:00 AM – 6:00 PM" },
-  { day: "Friday", hours: "8:00 AM – 6:00 PM" },
-  { day: "Saturday", hours: "8:00 AM – 6:00 PM" },
+  { day: "Monday", hours: "Closed" },
+  { day: "Tuesday", hours: "8:00 AM – 4:30 PM" },
+  { day: "Wednesday", hours: "8:00 AM – 4:30 PM" },
+  { day: "Thursday", hours: "8:00 AM – 4:30 PM" },
+  { day: "Friday", hours: "8:00 AM – 4:30 PM" },
+  { day: "Saturday", hours: "8:00 AM – 2:00 PM" },
   { day: "Sunday", hours: "Closed" },
 ];
 
@@ -225,7 +225,7 @@ const About: FC = () => (
           {[
             { value: "4.6★", label: "Google Rating" },
             { value: "119", label: "Customer Reviews" },
-            { value: "6 Days", label: "Open Per Week" },
+            { value: "5 Days", label: "Open Per Week" },
             { value: "4 Services", label: "We Offer" },
           ].map((stat) => (
             <div
