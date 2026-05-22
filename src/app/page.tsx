@@ -113,8 +113,12 @@ const Hero: FC = () => (
         Classic Cuts. Clean Shaves.
       </p>
 
-      <p className="text-gray-400 mb-10 text-lg">
+      <p className="text-gray-400 mb-4 text-lg">
         University Heights, Ohio · Est. in the community
+      </p>
+
+      <p className="text-white font-semibold text-base mb-10 bg-red-600/20 border border-red-600/40 px-5 py-2 rounded-sm inline-block">
+        Walk-ins Only — No Appointments Taken
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -178,7 +182,7 @@ const Services: FC = () => (
       </div>
 
       <p className="text-center text-gray-500 text-sm mt-8">
-        * Prices starting at. Walk-ins welcome — call ahead for availability.
+        * Prices starting at. Walk-ins only — no appointments taken.
       </p>
     </div>
   </section>
